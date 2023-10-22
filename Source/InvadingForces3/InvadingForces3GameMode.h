@@ -13,6 +13,8 @@ class AInvadingForces3GameMode : public AGameModeBase
 
 public:
 	AInvadingForces3GameMode();
+
+	virtual void BeginPlay() override;
 };
 
 
